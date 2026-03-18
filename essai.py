@@ -4,7 +4,7 @@ import json
 import os
 import time
 from streamlit_autorefresh import st_autorefresh
-mport requests
+import requests
 
 def get_xrp_price():
     # URL de l'API publique de Coinbase pour le XRP
