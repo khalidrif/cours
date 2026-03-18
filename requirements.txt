@@ -4,3 +4,4 @@ pandas
 streamlit-autorefresh
 requests
 
+coinbase-advanced-py
