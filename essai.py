@@ -6,4 +6,4 @@ import time
 from streamlit_autorefresh import st_autorefresh
 import requests
 
-print("allo")
+print(7+7)
