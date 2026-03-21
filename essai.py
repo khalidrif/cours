@@ -90,6 +90,10 @@ col2.metric("💠 XRP libres", f"{xrp:.2f}")
 col3.metric("📊 Prix XRP", f"{mid:.5f}")
 col4.metric("💰 Total (USDC)", f"{wallet_total:.2f}$")
 st.divider()
+# === TOTAL DES GAINS ===
+total_gain = sum(b["gain_net"] for b in st.session_state.bots.values())
+st.success(f"💰 Gains cumulés de tous les bots : {total_gain:.2f}$")
+st.divider()
 
 # === AJOUT D’UN BOT ===
 st.subheader("➕ Ajouter un bot")
