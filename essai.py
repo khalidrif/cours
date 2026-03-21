@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import ccxt
 import json
@@ -185,3 +183,4 @@ c1,c2,c3=st.columns(3)
 c1.metric("Bid", f"{bid:.5f}")
 c2.metric("Ask", f"{ask:.5f}")
 c3.metric("Mid", f"{mid:.5f}")
+
